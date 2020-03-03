@@ -8,7 +8,7 @@ var path = require("path");
 var app = express();
 //let's do dot notation for express. also three characters is way less than seven. gotta type fast n stuff. 
 
-var PORT = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 
 // Sets up the Express app to handle data parsing
